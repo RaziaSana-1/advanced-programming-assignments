@@ -1,0 +1,24 @@
+<!-- HTML DOM collection is front-end web development releted.
+by this we can access all the elements on the page, so when accessing multiple elements at once, they
+are being returend as an HTMLcollection  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razia Sana</title>
+   
+</head>
+<body>
+    <h1 id="h1"> Heading 1 </h1>
+    <p class="ph1"> change paragraph  </p>
+</body>
+
+<script>
+       var h1 = document.getElementById('h1').innerHTML = 'Change heading 1 to this';
+       var ph1 = document.getElementsByClassName('ph1').innerHTML= 'change paragraph to this'
+</script>
+
+</html>
